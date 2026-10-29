@@ -1,0 +1,7 @@
+carrito=[]
+n_productos=int(input("Ingresa el numero de productos"))
+for i in range(n_productos):
+    producto=input("Ingrsa el producto a tu carrito")
+    carrito.append(producto)
+print("Lista creada correctamente")
+print(f"Tu carrito contiene {carrito}")
